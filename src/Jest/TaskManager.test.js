@@ -3,6 +3,8 @@
  */
 const injectLastTask = require('./addNewTasktoDOM.js');
 
+const TaskManager = require('./TaskManager-toTest.js');
+
 describe('TaskManager - add New Task to LocalStorage', () => {
   let taskList;
 
