@@ -12,8 +12,6 @@ document.querySelector('[data-refresh-btn]').addEventListener('click', () => {
   window.location.reload();
 });
 
-// * START of [Add New Task]
-
 document.querySelector('[data-add-task]').addEventListener('click', () => {
   const taskData = document.querySelector('[name="new-task"]');
   if (!taskData.value) {
@@ -24,8 +22,6 @@ document.querySelector('[data-add-task]').addEventListener('click', () => {
   updateTaskListOnDOM.injectLastTask();
   window.location.reload();
 });
-
-// * START of [Task Edition]
 
 document.querySelectorAll('[data-task]').forEach((taskInput) => {
   taskInput.addEventListener('click', () => {
@@ -50,8 +46,6 @@ document.querySelectorAll('[data-task]').forEach((taskInput) => {
   });
 });
 
-// * START of [Task Checked]
-
 document.querySelectorAll('[data-task-checkbox]').forEach((checkbox) => {
   checkbox.addEventListener('change', (event) => {
     const taskCompleted = JSON.parse(event.target.dataset.completed);
@@ -63,8 +57,6 @@ document.querySelectorAll('[data-task-checkbox]').forEach((checkbox) => {
   });
 });
 
-// * START of [Task Single Deletion]
-
 document.querySelectorAll('[data-delete-task]').forEach((button) => {
   button.addEventListener('click', () => {
     const parentDiv = getParentElement(button, 'div');
@@ -73,8 +65,6 @@ document.querySelectorAll('[data-delete-task]').forEach((button) => {
     window.location.reload();
   });
 });
-
-// * START of [Task Multiple Deletion]
 
 document.querySelector('[data-clear-all-btn]').addEventListener('click', () => {
   const taskList = new TaskManager();

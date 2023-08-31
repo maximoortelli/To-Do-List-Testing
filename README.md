@@ -4,7 +4,7 @@
   <img src="cat-black-face.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>To Do List:Testing Part 1</b></h3>
+  <h3><b>To Do List:Testing Part 2</b></h3>
 
 </div>
 
@@ -32,9 +32,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 To Do List:Testing Part 1 <a name="about-project"></a>
+# 📖 To Do List:Testing Part 2 <a name="about-project"></a>
 
-To Do List:Testing Part 1. In this project i will write unit tests for the To Do list application. The testing project has been divided into two parts. In part 1 i will test functions responsible for adding and deleting list items. In part 2 i will test the status and content updates as well as the order re-position of items in the list. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
+To Do List:Testing Part 2. In this part of the testing project, i will test functions responsible for the status and content updates. I will also test the order re-position of items in the list upon drag/drop actions. The goal here is to master all of the tools and best practices learned about in previous steps to use them in all Microverse projects and most likely in my future job as well.
 
 ## 🛠 Built With <a name="built-with"></a>
 
