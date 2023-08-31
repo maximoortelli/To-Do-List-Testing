@@ -2,7 +2,8 @@
  * @jest-environment jsdom
  */
 
-
+const TaskManager = require('./TaskManager-toTest.js');
+const injectLastTask = require('./addNewTasktoDOM.js');
 
 describe('TaskManager - add New Task to LocalStorage', () => {
   let taskList;
